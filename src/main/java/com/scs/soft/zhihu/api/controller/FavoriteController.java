@@ -15,11 +15,6 @@ public class FavoriteController {
     @Resource
     private FavoriteService favoriteService;
 
-    @GetMapping
-    public Result getResult(){
-        return Result.success(favoriteService.selectRecentFavorite());
-    }
-
     @GetMapping(value = "/all")
     public Result getAll(){
         return Result.success(favoriteService.selectAllFavorite());

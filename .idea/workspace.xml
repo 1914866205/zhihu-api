@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b686156-4c11-4ed0-85e4-c7fa018b53ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/controller/FavoriteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/entity/Favorite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/mapper/FavoriteMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/service/FavoriteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/service/FavoriteServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/common/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/common/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/controller/FavoriteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/controller/FavoriteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/controller/SpecialController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/controller/SpecialController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/mapper/FavoriteMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/mapper/FavoriteMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scs/soft/zhihu/api/controller/FavoriteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scs/soft/zhihu/api/controller/FavoriteController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scs/soft/zhihu/api/controller/SpecialController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scs/soft/zhihu/api/controller/SpecialController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scs/soft/zhihu/api/service/FavoriteServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scs/soft/zhihu/api/service/FavoriteServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +96,7 @@
       <recent name="D:\CompcuteApplication\projectTest\zhihu-api\src\main\java\com\scs\soft\zhihu\api\common" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FavoriteServiceImpl.s">
+  <component name="RunManager" selected="Spring Boot.ZhihuApiApplication">
     <configuration name="FavoriteController.getAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="zhihu-api" />
       <extension name="coverage">
@@ -188,6 +188,9 @@
       <workItem from="1579345223326" duration="7227000" />
       <workItem from="1579417048406" duration="11015000" />
       <workItem from="1579531139886" duration="86000" />
+      <workItem from="1579587837954" duration="633000" />
+      <workItem from="1579605767279" duration="5120000" />
+      <workItem from="1579689977481" duration="7123000" />
     </task>
     <task id="LOCAL-00001" summary="知乎后端">
       <created>1579421040342</created>
@@ -227,38 +230,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="262" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1579421036574" />
-    <state width="1493" height="363" key="GridCell.Tab.0.bottom" timestamp="1579531007955">
+    <state width="1054" height="576" key="GridCell.Tab.0.bottom" timestamp="1579703454524">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="363" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579531007955" />
-    <state width="1493" height="363" key="GridCell.Tab.0.center" timestamp="1579531007955">
+    <state width="1054" height="576" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579703454524" />
+    <state width="1054" height="576" key="GridCell.Tab.0.center" timestamp="1579703454524">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="363" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579531007955" />
-    <state width="1493" height="363" key="GridCell.Tab.0.left" timestamp="1579531007955">
+    <state width="1054" height="576" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579703454524" />
+    <state width="1054" height="576" key="GridCell.Tab.0.left" timestamp="1579703454524">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="363" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579531007955" />
-    <state width="1493" height="363" key="GridCell.Tab.0.right" timestamp="1579531007955">
+    <state width="1054" height="576" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579703454524" />
+    <state width="1054" height="576" key="GridCell.Tab.0.right" timestamp="1579703454524">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="363" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579531007955" />
-    <state width="1493" height="363" key="GridCell.Tab.1.bottom" timestamp="1579531007952">
+    <state width="1054" height="576" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579703454524" />
+    <state width="1054" height="576" key="GridCell.Tab.1.bottom" timestamp="1579703454524">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="363" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579531007952" />
-    <state width="1493" height="363" key="GridCell.Tab.1.center" timestamp="1579531007952">
+    <state width="1054" height="576" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579703454524" />
+    <state width="1054" height="576" key="GridCell.Tab.1.center" timestamp="1579703454524">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="363" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1579531007952" />
-    <state width="1493" height="363" key="GridCell.Tab.1.left" timestamp="1579531007952">
+    <state width="1054" height="576" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1579703454524" />
+    <state width="1054" height="576" key="GridCell.Tab.1.left" timestamp="1579703454524">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="363" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1579531007952" />
-    <state width="1493" height="363" key="GridCell.Tab.1.right" timestamp="1579531007952">
+    <state width="1054" height="576" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1579703454524" />
+    <state width="1054" height="576" key="GridCell.Tab.1.right" timestamp="1579703454524">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="363" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1579531007952" />
+    <state width="1054" height="576" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1579703454524" />
     <state x="498" y="0" key="SettingsEditor" timestamp="1579093384057">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -16,7 +16,7 @@ public interface FavoriteMapper {
      *收藏
      * @return List<Favorite>
      */
-    @Select("select * from t_favorite order by updated desc limit 0,4")
+    @Select("select * from t_favorite order by voteup_count desc limit 0,4")
     List<Favorite> selectRecentFavorite();
 
     /**
