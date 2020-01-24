@@ -1,6 +1,7 @@
 package com.scs.soft.zhihu.api.controller;
 
 import com.scs.soft.zhihu.api.common.Result;
+import com.scs.soft.zhihu.api.service.ColumnsService;
 import com.scs.soft.zhihu.api.service.FavoriteService;
 import com.scs.soft.zhihu.api.service.SpecialService;
 import org.apache.catalina.servlets.CGIServlet;
@@ -22,11 +23,14 @@ public class SpecialController {
     @Resource
     private FavoriteService favoriteService;
 
+    @Resource
+    private ColumnsService columnsService;
     @GetMapping
     public Result getResult(){
         Map<String,List> map= new HashMap<>() ;
         map.put("special",specialService.selectRecent());
         map.put("favorite",favoriteService.selectRecentFavorite());
+        map.put("columns",columnsService.selectRecentColumns());
         return Result.success(map);
     }
     @GetMapping(value = "/all")
