@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b686156-4c11-4ed0-85e4-c7fa018b53ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/controller/ColumnsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/entity/Columns.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/mapper/ColumnsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/service/ColumnsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/service/ColumnsServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/controller/SpecialController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/controller/SpecialController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/mapper/FavoriteMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scs/soft/zhihu/api/mapper/FavoriteMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scs/soft/zhihu/api/common/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scs/soft/zhihu/api/common/Result.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scs/soft/zhihu/api/controller/SpecialController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scs/soft/zhihu/api/controller/SpecialController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +184,7 @@
       <workItem from="1579587837954" duration="633000" />
       <workItem from="1579605767279" duration="5120000" />
       <workItem from="1579689977481" duration="8015000" />
-      <workItem from="1579857091659" duration="4250000" />
+      <workItem from="1579857091659" duration="5473000" />
     </task>
     <task id="LOCAL-00001" summary="知乎后端">
       <created>1579421040342</created>
