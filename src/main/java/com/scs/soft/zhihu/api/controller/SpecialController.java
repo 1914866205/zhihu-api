@@ -3,6 +3,7 @@ package com.scs.soft.zhihu.api.controller;
 import com.scs.soft.zhihu.api.common.Result;
 import com.scs.soft.zhihu.api.service.ColumnsService;
 import com.scs.soft.zhihu.api.service.FavoriteService;
+import com.scs.soft.zhihu.api.service.RoundTableService;
 import com.scs.soft.zhihu.api.service.SpecialService;
 import org.apache.catalina.servlets.CGIServlet;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -25,12 +26,16 @@ public class SpecialController {
 
     @Resource
     private ColumnsService columnsService;
+
+    @Resource
+    private RoundTableService roundTableService;
     @GetMapping
     public Result getResult(){
         Map<String,List> map= new HashMap<>() ;
         map.put("special",specialService.selectRecent());
         map.put("favorite",favoriteService.selectRecentFavorite());
         map.put("columns",columnsService.selectRecentColumns());
+        map.put("roundtable",roundTableService.selectRecentRound());
         return Result.success(map);
     }
     @GetMapping(value = "/all")
